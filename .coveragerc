@@ -1,0 +1,5 @@
+[run]
+include = acatto_web/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
