@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 """
 import environ
 
-JET = False
+JET = True
 
 ROOT_DIR = environ.Path(__file__) - 3  # (acatto_web/config/settings/base.py - 3 = acatto_web/)
 APPS_DIR = ROOT_DIR.path('acatto_web')
@@ -61,12 +61,14 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     # custom users app
     'acatto_web.users.apps.UsersConfig',
-    'acatto',
     # Your stuff: custom apps go here
+    'acatto',
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
+if JET:
+    INSTALLED_APPS.insert(0, 'jet')
 
 # MIDDLEWARE CONFIGURATION
 # ------------------------------------------------------------------------------
