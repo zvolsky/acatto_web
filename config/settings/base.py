@@ -11,7 +11,7 @@ import environ
 import os
 
 
-JET = True
+JET = False
 
 ROOT_DIR = environ.Path(__file__) - 3  # (acatto_web/config/settings/base.py - 3 = acatto_web/)
 APPS_DIR = ROOT_DIR.path('acatto_web')
