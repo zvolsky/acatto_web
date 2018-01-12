@@ -8,6 +8,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/dev/ref/settings/
 """
 import environ
+import os
+
 
 JET = True
 
@@ -75,6 +77,7 @@ if JET:
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -132,6 +135,24 @@ DATABASES['default']['ATOMIC_REQUESTS'] = True
 # although not all choices may be available on all operating systems.
 # In a Windows environment this must be set to your system time zone.
 TIME_ZONE = 'Europe/Prague'
+
+# Internationalization
+# https://docs.djangoproject.com/en/2.0/topics/i18n/
+
+# mz ++
+# toto je asi špatně, spíš se zavolá 'makemessages -d <domain~app> z aplikace
+# podobně pro javascript: -d djangojs
+
+#LOCALE_PATHS = ("locale",)  # nevím, jak správně, ale chtěl bych mít oddělené překlady aplikací, proto tento pokus:
+LOCALE_PATHS = [
+    os.path.join(os.path.dirname(__file__), "locale"),
+]
+for app in INSTALLED_APPS:
+    app_root = os.path.join(os.path.dirname(os.path.dirname(__file__)), app)
+    if os.path.isdir(app_root):
+        LOCALE_PATHS.insert(0, os.path.join(app_root, "locale"))
+# pak: ./manage.py makemessages -l cs_CZ
+# mz ++ end
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#language-code
 LANGUAGE_CODE = 'en-us'

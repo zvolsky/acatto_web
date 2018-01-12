@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-22 16:05+0100\n"
+"POT-Creation-Date: 2018-01-12 13:58+0100\n"
 "PO-Revision-Date: 2017-12-22 16:04+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -17,46 +17,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.5\n"
 
-#: acatto/admin.py:31 acatto/models.py:110 acatto/models.py:117
+#: acatto/admin.py:25 acatto/models.py:110 acatto/models.py:117
 #: acatto/models.py:126 acatto/models.py:135 acatto/models.py:144
 msgid "Product"
 msgstr "Produkt"
 
-#: acatto/admin.py:32 acatto/models.py:111
+#: acatto/admin.py:26 acatto/models.py:111
 msgid "Products"
 msgstr "Produkty"
 
-#: acatto/admin.py:47 acatto/admin.py:95 acatto/models.py:145
+#: acatto/admin.py:41 acatto/admin.py:89 acatto/models.py:145
 #: acatto/models.py:154
 msgid "Author"
 msgstr "Autor"
 
-#: acatto/admin.py:48 acatto/admin.py:96
+#: acatto/admin.py:42 acatto/admin.py:90
 msgid "Authors"
 msgstr "Autoři"
 
-#: acatto/admin.py:53 acatto/admin.py:83 acatto/models.py:30
+#: acatto/admin.py:47 acatto/admin.py:77 acatto/models.py:30
 #: acatto/models.py:136 acatto/models.py:153
 msgid "Team"
 msgstr "Tým"
 
-#: acatto/admin.py:54 acatto/admin.py:84 acatto/models.py:31
+#: acatto/admin.py:48 acatto/admin.py:78 acatto/models.py:31
 msgid "Teams"
 msgstr "Týmy"
 
-#: acatto/admin.py:59 acatto/models.py:78 acatto/models.py:118
+#: acatto/admin.py:53 acatto/models.py:78 acatto/models.py:118
 msgid "Offer type"
 msgstr "Typ nabídky"
 
-#: acatto/admin.py:60 acatto/models.py:79
+#: acatto/admin.py:54 acatto/models.py:79
 msgid "Offer types"
 msgstr "Typy nabídky"
 
-#: acatto/admin.py:71 acatto/models.py:53 acatto/models.py:127
+#: acatto/admin.py:65 acatto/models.py:53 acatto/models.py:127
 msgid "Branch"
 msgstr "Obor"
 
-#: acatto/admin.py:72 acatto/models.py:54
+#: acatto/admin.py:66 acatto/models.py:54
 msgid "Branches"
 msgstr "Obory"
 
