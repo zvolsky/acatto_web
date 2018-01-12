@@ -316,6 +316,9 @@ ADMIN_URL = r'^admin/'
 # Your common stuff: Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
 
+SECURE_HSTS_PRELOAD = True
+SECURE_HSTS_SECONDS = 60
+
 if JET:
     # JET
     JET_SIDE_MENU_COMPACT = True
