@@ -9,6 +9,8 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 """
 import environ
 
+JET = False
+
 ROOT_DIR = environ.Path(__file__) - 3  # (acatto_web/config/settings/base.py - 3 = acatto_web/)
 APPS_DIR = ROOT_DIR.path('acatto_web')
 
@@ -49,12 +51,17 @@ THIRD_PARTY_APPS = [
     'allauth',  # registration
     'allauth.account',  # registration
     'allauth.socialaccount',  # registration
+    'ckeditor',
+    # 'ckeditor_uploader',       # zakomentováno s MEDIA_.., CKEDITOR_..
+    # 'simple_history',
+    'django_smoke_tests',
 ]
 
 # Apps specific for this project go here.
 LOCAL_APPS = [
     # custom users app
     'acatto_web.users.apps.UsersConfig',
+    'acatto',
     # Your stuff: custom apps go here
 ]
 
@@ -285,3 +292,149 @@ ADMIN_URL = r'^admin/'
 
 # Your common stuff: Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
+
+if JET:
+    # JET
+    JET_SIDE_MENU_COMPACT = True
+
+    ''' # musí souhlasit počet s admin.py registrací !!!
+    JET_SIDE_MENU_ITEMS = [
+        {'app_label': 'auth', 'items': [
+            {'name': 'group'},
+            {'name': 'user'},
+        ]},
+        {'app_label': 'academic', 'items': [
+            {'name': 'branch'},
+            {'name': 'industry'},
+            {'name': 'institute'},
+            {'name': 'offer'},
+            {'name': 'person'},
+            {'name': 'product'},
+            {'name': 'team'},
+            {'name': 'x_product_author'},
+            {'name': 'x_product_branch'},
+            {'name': 'x_product_offer'},
+            {'name': 'x_product_team'},
+            {'name': 'x_team_author'},
+        ]},
+        {'app_label': 'boards', 'items': [
+            {'name': 'board'},
+            {'name': 'topic'},
+            {'name': 'post'},
+        ]},
+    ]
+    '''
+
+    JET_THEMES = [
+        {
+            'theme': 'default', # theme folder name
+            'color': '#47bac1', # color of the theme's button in user menu
+            'title': 'Default' # theme title
+        },
+        {
+            'theme': 'green',
+            'color': '#44b78b',
+            'title': 'Green'
+        },
+        {
+            'theme': 'light-gray',
+            'color': '#222',
+            'title': 'Light Gray'
+        }
+    ]
+    '''
+    {
+        'theme': 'light-green',
+        'color': '#2faa60',
+        'title': 'Light Green'
+    },
+    {
+        'theme': 'light-violet',
+        'color': '#a464c4',
+        'title': 'Light Violet'
+    },
+    {
+        'theme': 'light-blue',
+        'color': '#5EADDE',
+        'title': 'Light Blue'
+    },
+    '''
+
+CKEDITOR_CONFIGS = {
+    'product_content': {
+        'skin': 'moono',
+        #'skin': 'office2013',
+        'toolbar_Basic': [
+            ['Source', '-', 'Bold', 'Italic']
+        ],
+        'toolbar_CustomToolbar': [
+            {'name': 'styles', 'items': ['Format', 'FontSize']},  # 'Styles', 'Font',
+            {'name': 'clipboard', 'items': ['Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo']},
+            {'name': 'editing', 'items': ['Find', 'Replace', '-', 'SelectAll']},
+            {'name': 'document', 'items': ['Source', 'ShowBlocks', 'Preview', 'Print', 'Maximize',]}, # 'Save', 'NewPage', 'Templates'
+            #{'name': 'about', 'items': ['About']},
+            '/',
+            {'name': 'basicstyles',
+             'items': ['Bold', 'Italic', 'TextColor', 'BGColor', 'Subscript', 'Superscript', '-', 'RemoveFormat']},
+            {'name': 'paragraph',
+             'items': ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-',
+                       'JustifyLeft', 'JustifyCenter', 'JustifyRight', '-', 'Blockquote', 'CreateDiv',]},  # 'JustifyBlock'
+            {'name': 'insert', 'items': ['Link', 'Unlink', 'Anchor', 'Image', 'Table', 'HorizontalRule', 'Smiley', 'SpecialChar', 'PageBreak', 'Iframe']},  # 'Flash',
+        ],
+        'toolbar_YourCustomToolbarConfig_Example': [
+            {'name': 'document', 'items': ['Source', '-', 'Save', 'NewPage', 'Preview', 'Print', '-', 'Templates']},
+            {'name': 'clipboard', 'items': ['Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo']},
+            {'name': 'editing', 'items': ['Find', 'Replace', '-', 'SelectAll']},
+            {'name': 'forms',
+             'items': ['Form', 'Checkbox', 'Radio', 'TextField', 'Textarea', 'Select', 'Button', 'ImageButton',
+                       'HiddenField']},
+            '/',
+            {'name': 'basicstyles',
+             'items': ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat']},
+            {'name': 'paragraph',
+             'items': ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-',
+                       'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-', 'BidiLtr', 'BidiRtl',
+                       'Language']},
+            {'name': 'links', 'items': ['Link', 'Unlink', 'Anchor']},
+            {'name': 'insert',
+             'items': ['Image', 'Flash', 'Table', 'HorizontalRule', 'Smiley', 'SpecialChar', 'PageBreak', 'Iframe']},
+            '/',
+            {'name': 'styles', 'items': ['Styles', 'Format', 'Font', 'FontSize']},
+            {'name': 'colors', 'items': ['TextColor', 'BGColor']},
+            {'name': 'tools', 'items': ['Maximize', 'ShowBlocks']},
+            {'name': 'about', 'items': ['About']},
+            '/',  # put this to force next toolbar on new line
+            {'name': 'yourcustomtools', 'items': [
+                # put the name of your editor.ui.addButton here
+                'Preview',
+                'Maximize',
+
+            ]},
+        ],
+        'toolbar': 'CustomToolbar',  # put selected toolbar config here
+        # 'toolbarGroups': [{ 'name': 'document', 'groups': [ 'mode', 'document', 'doctools' ] }],
+        # 'height': 291,
+        # 'width': '100%',
+        # 'filebrowserWindowHeight': 725,
+        # 'filebrowserWindowWidth': 940,
+        # 'toolbarCanCollapse': True,
+        # 'mathJaxLib': '//cdn.mathjax.org/mathjax/2.2-latest/MathJax.js?config=TeX-AMS_HTML',
+        'tabSpaces': 4,
+        'extraPlugins': ','.join([
+            'uploadimage', # the upload image feature
+            # your extra plugins here
+            'div',
+            'autolink',
+            'autoembed',
+            'embedsemantic',
+            'autogrow',
+            # 'devtools',
+            'widget',
+            'lineutils',
+            'clipboard',
+            'dialog',
+            'dialogui',
+            'elementspath'
+        ]),
+    }
+}

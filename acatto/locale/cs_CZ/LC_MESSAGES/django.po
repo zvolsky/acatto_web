@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-22 16:05+0100\n"
+"PO-Revision-Date: 2017-12-22 16:04+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+
+#: acatto/admin.py:31 acatto/models.py:110 acatto/models.py:117
+#: acatto/models.py:126 acatto/models.py:135 acatto/models.py:144
+msgid "Product"
+msgstr "Produkt"
+
+#: acatto/admin.py:32 acatto/models.py:111
+msgid "Products"
+msgstr "Produkty"
+
+#: acatto/admin.py:47 acatto/admin.py:95 acatto/models.py:145
+#: acatto/models.py:154
+msgid "Author"
+msgstr "Autor"
+
+#: acatto/admin.py:48 acatto/admin.py:96
+msgid "Authors"
+msgstr "Autoři"
+
+#: acatto/admin.py:53 acatto/admin.py:83 acatto/models.py:30
+#: acatto/models.py:136 acatto/models.py:153
+msgid "Team"
+msgstr "Tým"
+
+#: acatto/admin.py:54 acatto/admin.py:84 acatto/models.py:31
+msgid "Teams"
+msgstr "Týmy"
+
+#: acatto/admin.py:59 acatto/models.py:78 acatto/models.py:118
+msgid "Offer type"
+msgstr "Typ nabídky"
+
+#: acatto/admin.py:60 acatto/models.py:79
+msgid "Offer types"
+msgstr "Typy nabídky"
+
+#: acatto/admin.py:71 acatto/models.py:53 acatto/models.py:127
+msgid "Branch"
+msgstr "Obor"
+
+#: acatto/admin.py:72 acatto/models.py:54
+msgid "Branches"
+msgstr "Obory"
+
+#: acatto/models.py:11 acatto/models.py:23 acatto/models.py:35
+#: acatto/models.py:47 acatto/models.py:72 acatto/models.py:97
+msgid "Name"
+msgstr "Název"
+
+#: acatto/models.py:17
+msgid "Institute"
+msgstr "Instituce"
+
+#: acatto/models.py:18
+msgid "Institutes"
+msgstr "Instituce"
+
+#: acatto/models.py:41
+msgid "Industry"
+msgstr "Odvětví"
+
+#: acatto/models.py:42
+msgid "Industries"
+msgstr "Odvětví"
+
+#: acatto/models.py:58
+msgid "Lastname"
+msgstr "Příjmení"
+
+#: acatto/models.py:59
+msgid "Other names"
+msgstr "Další jména"
+
+#: acatto/models.py:60
+msgid "Title before"
+msgstr "Titul před jménem"
+
+#: acatto/models.py:61
+msgid "Title after"
+msgstr "Titul za jménem"
+
+#: acatto/models.py:67
+msgid "Person"
+msgstr "Osoba"
+
+#: acatto/models.py:68
+msgid "People"
+msgstr "Osoby"
+
+#: acatto/models.py:93
+msgid "Transfer adviser"
+msgstr "Poradce pro transfer"
+
+#: acatto/models.py:94
+msgid "Depositor"
+msgstr "Vkladatel"
+
+#: acatto/models.py:98
+msgid "Synopsis"
+msgstr "Anotace"
+
+#: acatto/models.py:99
+msgid "Content"
+msgstr "Obsah"
+
+#: acatto/models.py:103
+msgid "Published"
+msgstr "Publikováno"
+
+#: acatto/models.py:121
+msgid "Product offer type"
+msgstr "Typ nabídky produktu"
+
+#: acatto/models.py:122
+msgid "Product offer types"
+msgstr "Typy nabídky produktu"
+
+#: acatto/models.py:130
+msgid "Product_Branch"
+msgstr "Obor produktu"
+
+#: acatto/models.py:131
+msgid "Product_Branches"
+msgstr "Obory produktu"
+
+#: acatto/models.py:139
+msgid "Product team"
+msgstr "Tým produktu"
+
+#: acatto/models.py:140
+msgid "Product teams"
+msgstr "Týmy produktu"
+
+#: acatto/models.py:148
+msgid "Product author"
+msgstr "Autor produktu"
+
+#: acatto/models.py:149
+msgid "Product authors"
+msgstr "Autoři produktu"
+
+#: acatto/models.py:158
+msgid "Team membership"
+msgstr "Člen týmu"
+
+#: acatto/models.py:159
+msgid "Team memberships"
+msgstr "Členové týmu"
