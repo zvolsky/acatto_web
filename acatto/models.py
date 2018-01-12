@@ -95,9 +95,6 @@ class Product(models.Model):
     #author = models.ManyToManyField(Person, through='X_Product_Author')
     #author = models.ManyToManyField(Person)
     name = models.CharField(_("Name"), max_length=128)
-    anotation = models.TextField(_("Synopsis"))
-    content = RichTextField(_("Content"), null=True, blank=True, config_name='product_content')
-    #pokus = RichTextUploadingField(config_name='awesome2_ckeditor', null=True, blank=True)  # všechny parametry jsem si vymyslel
     #created = models.DateTimeField(auto_now_add=True)
     #updated = models.DateTimeField(null=True, blank=True)
     published = models.DateTimeField(_("Published"), null=True, blank=True)
@@ -109,6 +106,24 @@ class Product(models.Model):
     class Meta:
         verbose_name = _("Product")
         verbose_name_plural = _("Products")
+
+
+class ProductLoc(models.Model):
+    LANG_CHOICES = (
+        ('en_US', _('english')),
+        ('cs_CZ', _('czech')),
+    )
+
+    product = models.ForeignKey(Product, verbose_name=_("Product"), on_delete=models.CASCADE, related_name='product_localizations')
+    lang = models.CharField(max_length=5, choices=LANG_CHOICES)
+    name = models.CharField(_("Name"), max_length=128)
+    anotation = models.TextField(_("Synopsis"))
+    content = RichTextField(_("Content"), null=True, blank=True, config_name='product_content')
+    #pokus = RichTextUploadingField(config_name='awesome2_ckeditor', null=True, blank=True)  # všechny parametry jsem si vymyslel
+
+
+    def __str__(self):
+        return '%s: %s' % (self.lang, self.name)
 
 
 # -----------------

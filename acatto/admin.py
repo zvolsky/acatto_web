@@ -11,13 +11,17 @@ from .models import (
         Offer,
         Person,
         X_Team_Author,
-        Product,
+        Product, ProductLoc,
         X_Product_Offer, X_Product_Branch, X_Product_Team, X_Product_Author,)
 
 
 # DRY classes
 
 class TabularInline(admin.TabularInline):
+    extra = 0
+
+
+class StackedInline(admin.StackedInline):
     extra = 0
 
 
@@ -46,6 +50,12 @@ class AuthorTeamInline(TabularInline):
     model = X_Team_Author
     verbose_name = _("Team")
     verbose_name_plural = _("Teams")
+
+
+class ProductLocInline(StackedInline):
+    model = ProductLoc
+    verbose_name = _("Product localization")
+    verbose_name_plural = _("Product localizations")
 
 
 class ProductOfferInline(TabularInline):
@@ -134,7 +144,7 @@ class ProductForm(forms.ModelForm):
 
 class ProductAdmin(ModelAdmin):
     # form = ProductForm
-    inlines = [ProductOfferInline, ProductBranchInline, ProductTeamInline, ProductAuthorInline]
+    inlines = [ProductLocInline, ProductOfferInline, ProductBranchInline, ProductTeamInline, ProductAuthorInline]
 
     #def formfield_for_foreignkey(self, db_field, request, **kwargs):
     #    if db_field.name == "tt":
