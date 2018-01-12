@@ -317,7 +317,7 @@ ADMIN_URL = r'^admin/'
 # ------------------------------------------------------------------------------
 
 SECURE_HSTS_PRELOAD = True
-SECURE_HSTS_SECONDS = 60
+SECURE_HSTS_SECONDS = 10800
 
 if JET:
     # JET
