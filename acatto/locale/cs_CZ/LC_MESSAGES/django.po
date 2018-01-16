@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-12 18:07+0100\n"
+"POT-Creation-Date: 2018-01-14 11:14+0100\n"
 "PO-Revision-Date: 2017-12-22 16:04+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -17,51 +17,65 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.5\n"
 
-#: acatto/admin.py:25 acatto/models.py:110 acatto/models.py:117
-#: acatto/models.py:126 acatto/models.py:135 acatto/models.py:144
+#: acatto/admin.py:29 acatto/models.py:107 acatto/models.py:117
+#: acatto/models.py:132 acatto/models.py:141 acatto/models.py:150
+#: acatto/models.py:159
 msgid "Product"
 msgstr "Produkt"
 
-#: acatto/admin.py:26 acatto/models.py:111
+#: acatto/admin.py:30 acatto/models.py:108
 msgid "Products"
 msgstr "Produkty"
 
-#: acatto/admin.py:41 acatto/admin.py:89 acatto/models.py:145
-#: acatto/models.py:154
+#: acatto/admin.py:45 acatto/admin.py:99 acatto/models.py:160
+#: acatto/models.py:169
 msgid "Author"
 msgstr "Autor"
 
-#: acatto/admin.py:42 acatto/admin.py:90
+#: acatto/admin.py:46 acatto/admin.py:100
 msgid "Authors"
 msgstr "Autoři"
 
-#: acatto/admin.py:47 acatto/admin.py:77 acatto/models.py:30
-#: acatto/models.py:136 acatto/models.py:153
+#: acatto/admin.py:51 acatto/admin.py:87 acatto/models.py:30
+#: acatto/models.py:151 acatto/models.py:168
 msgid "Team"
 msgstr "Tým"
 
-#: acatto/admin.py:48 acatto/admin.py:78 acatto/models.py:31
+#: acatto/admin.py:52 acatto/admin.py:88 acatto/models.py:31
 msgid "Teams"
 msgstr "Týmy"
 
-#: acatto/admin.py:53 acatto/models.py:78 acatto/models.py:118
+#: acatto/admin.py:57
+#, fuzzy
+#| msgid "Product author"
+msgid "Product localization"
+msgstr "Autor produktu"
+
+#: acatto/admin.py:58
+#, fuzzy
+#| msgid "Product authors"
+msgid "Product localizations"
+msgstr "Autoři produktu"
+
+#: acatto/admin.py:63 acatto/models.py:78 acatto/models.py:133
 msgid "Offer type"
 msgstr "Typ nabídky"
 
-#: acatto/admin.py:54 acatto/models.py:79
+#: acatto/admin.py:64 acatto/models.py:79
 msgid "Offer types"
 msgstr "Typy nabídky"
 
-#: acatto/admin.py:65 acatto/models.py:53 acatto/models.py:127
+#: acatto/admin.py:75 acatto/models.py:53 acatto/models.py:142
 msgid "Branch"
 msgstr "Obor"
 
-#: acatto/admin.py:66 acatto/models.py:54
+#: acatto/admin.py:76 acatto/models.py:54
 msgid "Branches"
 msgstr "Obory"
 
 #: acatto/models.py:11 acatto/models.py:23 acatto/models.py:35
 #: acatto/models.py:47 acatto/models.py:72 acatto/models.py:97
+#: acatto/models.py:119
 msgid "Name"
 msgstr "Název"
 
@@ -113,54 +127,62 @@ msgstr "Poradce pro transfer"
 msgid "Depositor"
 msgstr "Vkladatel"
 
-#: acatto/models.py:98
-msgid "Synopsis"
-msgstr "Anotace"
-
-#: acatto/models.py:99
-msgid "Content"
-msgstr "Obsah"
-
-#: acatto/models.py:103
+#: acatto/models.py:100
 msgid "Published"
 msgstr "Publikováno"
 
+#: acatto/models.py:113
+msgid "english"
+msgstr ""
+
+#: acatto/models.py:114
+msgid "czech"
+msgstr ""
+
+#: acatto/models.py:120
+msgid "Synopsis"
+msgstr "Anotace"
+
 #: acatto/models.py:121
+msgid "Content"
+msgstr "Obsah"
+
+#: acatto/models.py:136
 msgid "Product offer type"
 msgstr "Typ nabídky produktu"
 
-#: acatto/models.py:122
+#: acatto/models.py:137
 msgid "Product offer types"
 msgstr "Typy nabídky produktu"
 
-#: acatto/models.py:130
+#: acatto/models.py:145
 msgid "Product_Branch"
 msgstr "Obor produktu"
 
-#: acatto/models.py:131
+#: acatto/models.py:146
 msgid "Product_Branches"
 msgstr "Obory produktu"
 
-#: acatto/models.py:139
+#: acatto/models.py:154
 msgid "Product team"
 msgstr "Tým produktu"
 
-#: acatto/models.py:140
+#: acatto/models.py:155
 msgid "Product teams"
 msgstr "Týmy produktu"
 
-#: acatto/models.py:148
+#: acatto/models.py:163
 msgid "Product author"
 msgstr "Autor produktu"
 
-#: acatto/models.py:149
+#: acatto/models.py:164
 msgid "Product authors"
 msgstr "Autoři produktu"
 
-#: acatto/models.py:158
+#: acatto/models.py:173
 msgid "Team membership"
 msgstr "Člen týmu"
 
-#: acatto/models.py:159
+#: acatto/models.py:174
 msgid "Team memberships"
 msgstr "Členové týmu"

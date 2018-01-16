@@ -9,8 +9,8 @@ from .settings.base import JET
 
 
 urlpatterns = [
-    url(r'^$', TemplateView.as_view(template_name='pages/home.html'), name='home'),
-    url(r'^about/$', TemplateView.as_view(template_name='pages/about.html'), name='about'),
+    url(r'^$', TemplateView.as_view(template_name='acatto/home.html'), name='home'),
+    url(r'^about/$', TemplateView.as_view(template_name='acatto/about.html'), name='about'),
 
     # Django Admin, use {% url 'admin:index' %}
     url(settings.ADMIN_URL, admin.site.urls),

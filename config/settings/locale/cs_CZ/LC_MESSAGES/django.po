@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-12 18:07+0100\n"
-"PO-Revision-Date: 2018-01-12 13:58+0100\n"
+"POT-Creation-Date: 2018-01-14 11:14+0100\n"
+"PO-Revision-Date: 2018-01-14 11:15+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: cs_CZ\n"
@@ -115,7 +115,8 @@ msgstr ""
 
 #: acatto_web/templates/account/login.html:7
 #: acatto_web/templates/account/login.html:11
-#: acatto_web/templates/account/login.html:44 acatto_web/templates/base.html:62
+#: acatto_web/templates/account/login.html:44 acatto_web/templates/base.html:63
+#: acatto_web/templates/base_orig.html:62
 msgid "Sign In"
 msgstr "Přihlásit se"
 
@@ -151,7 +152,7 @@ msgstr "Zapomněl(a) jste heslo?"
 #: acatto_web/templates/account/logout.html:5
 #: acatto_web/templates/account/logout.html:8
 #: acatto_web/templates/account/logout.html:17
-#: acatto_web/templates/base.html:53
+#: acatto_web/templates/base.html:54 acatto_web/templates/base_orig.html:53
 msgid "Sign Out"
 msgstr "Odhlásit se"
 
@@ -235,7 +236,7 @@ msgstr "Registrace"
 
 #: acatto_web/templates/account/signup.html:9
 #: acatto_web/templates/account/signup.html:19
-#: acatto_web/templates/base.html:58
+#: acatto_web/templates/base.html:59 acatto_web/templates/base_orig.html:58
 msgid "Sign Up"
 msgstr "Zaregistrovat se"
 
@@ -279,8 +280,8 @@ msgid ""
 "you are who you claim to be. For this purpose, we require that you\n"
 "verify ownership of your e-mail address. "
 msgstr ""
-"Zde vyžadujeme,\n"
-"svoji e-mailovou adresu."
+"Zde vyžadujeme, abyste ověřil(a),\n"
+"že vám patří uvedená e-mailová adresa."
 
 #: acatto_web/templates/account/verified_email_required.html:16
 msgid ""
@@ -301,7 +302,23 @@ msgstr ""
 "<strong>Poznámka:</strong> vždy můžete <a href=\"%(email_url)s\">změnit "
 "svoji e-mailovou adresu</a>."
 
-#: acatto_web/templates/base.html:49
+#: acatto_web/templates/base.html:36
+msgid "Go to home page"
+msgstr "Přejděte na úvodní stranu"
+
+#: acatto_web/templates/base.html:36
+msgid "cas.cz partner"
+msgstr "partner AV ČR"
+
+#: acatto_web/templates/base.html:41
+msgid "Home"
+msgstr "Hlavní stránka"
+
+#: acatto_web/templates/base.html:44
+msgid "About"
+msgstr "O webu"
+
+#: acatto_web/templates/base.html:50 acatto_web/templates/base_orig.html:49
 msgid "My Profile"
 msgstr "Můj profil"
 
