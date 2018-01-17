@@ -37,3 +37,13 @@ body > .footer {
 code {
   font-size: 80%;
 }
+
+#carousel-home {
+ height: 600px;
+ width: 100%;
+ overflow: hidden;
+}
+#carousel-home img {
+ height: auto;
+ width: 100%;
+}
