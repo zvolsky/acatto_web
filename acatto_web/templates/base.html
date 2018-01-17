@@ -23,48 +23,52 @@
     <link href="{% static 'css/project.css' %}" rel="stylesheet">
     {% endcompress %}
     {% endblock %}
+
+    <script src="https://use.fontawesome.com/148b434fc4.js"></script>
   </head>
 
   <body>
-    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
-      <div class="container">
-        <span class="skiplink-text">Skip to main content</span>
-      </div>
-    </a>
-    <nav id="nav-top" class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
-      <button class="btn btn-success"><a id="logo" class="navbar-brand mr-0 mr-md-2" href="/" aria-label="home">
-        <img src="{% static 'images/logo-av-en.png' %}">
-      </a></button>
-      <div class="navbar-nav-scroll">
-        <ul class="navbar-nav bd-navbar-nav flex-row">
-          <li class="nav-item"><a class="nav-link" href="http://av21.avcr.cz/CeTTAV/">{% trans 'CAS strategy' %}</a>
-          <li class="nav-item"><a class="nav-link" href="http://www.ssc.cas.cz/struktura-organizace/cettav.html">{% trans 'Transfer of technologies' %}</a>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+        <div class="container">
+          <span class="skiplink-text">Skip to main content</span>
+        </div>
+      </a>
+      <nav id="nav-top" class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+        <button class="btn btn-primary"><a id="logo" class="navbar-brand mr-0 mr-md-2" href="/" aria-label="home">
+          <img src="{% static 'images/logo-av-en.png' %}">
+        </a></button>
+        <div class="navbar-nav-scroll">
+          <ul class="navbar-nav bd-navbar-nav flex-row">
+            <li class="nav-item"><a class="nav-link" href="http://av21.avcr.cz/CeTTAV/">{% trans 'CAS strategy' %}</a>
+            <li class="nav-item"><a class="nav-link" href="http://www.ssc.cas.cz/struktura-organizace/cettav.html">{% trans 'Transfer of technologies' %}</a>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <div class="container-fluid">
       <div class="row flex-xl-nowrap">
 
-      {% if messages %}
-          {% for message in messages %}
-              <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}">{{ message }}</div>
-          {% endfor %}
-      {% endif %}
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
 
-      <main id="content" class="m-2">
-      {% block content %}
-        <p>{% trans 'This page is under development.' %}</p>
-      {% endblock content %}
-      </main>
+        <main id="content" class="w-100">
+        {% block content %}
+          <p>{% trans 'This page is under development.' %}</p>
+        {% endblock content %}
+        </main>
 
       </div>
     </div> <!-- /container-fluid -->
 
     <footer class="footer text-muted">
-      <ul class="list-inline mx-4">
-        <li class="list-inline-item"><a class="nav-link" href="http://av21.avcr.cz/CeTTAV/">{% trans 'CAS strategy' %}</a>
-        <li class="list-inline-item"><a class="nav-link" href="http://www.ssc.cas.cz/struktura-organizace/cettav.html">{% trans 'Transfer of technologies' %}</a>
+      <ul class="nav mx-4">
+        <li class="nav-item"><a class="nav-link" href="http://av21.avcr.cz/CeTTAV/"><i class="fa fa-share-square"></i> {% trans 'CAS strategy' %}</a>
+        <li class="nav-item"><a class="nav-link" href="http://www.ssc.cas.cz/struktura-organizace/cettav.html"><i class="fa fa-recycle"></i> {% trans 'Transfer of technologies' %}</a>
       </ul>
       <p class="mx-5">{% trans 'This site is under development.' %}</p>
     </footer>
