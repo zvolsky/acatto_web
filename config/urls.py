@@ -7,10 +7,11 @@ from django.views import defaults as default_views
 
 from .settings.base import JET
 
+import acatto.views
+
 
 urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name='acatto/home.html'), name='home'),
-    url(r'^about/$', TemplateView.as_view(template_name='acatto/about.html'), name='about'),
 
     # Django Admin, use {% url 'admin:index' %}
     url(settings.ADMIN_URL, admin.site.urls),
@@ -21,6 +22,7 @@ urlpatterns = [
 
     # Your stuff: custom urls includes go here
 
+    url(r'^products/$', acatto.views.products, name='products'),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

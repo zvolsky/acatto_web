@@ -35,9 +35,9 @@
         </div>
       </a>
       <nav id="nav-top" class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
-        <button class="btn btn-primary"><a id="logo" class="navbar-brand mr-0 mr-md-2" href="/" aria-label="home">
+        <span class="btn btn-primary"><a id="logo" class="navbar-brand mr-0 mr-md-2" href="/" aria-label="home">
           <img src="{% static 'images/logo-av-en.png' %}">
-        </a></button>
+        </a></span>
         <div class="navbar-nav-scroll">
           <ul class="navbar-nav bd-navbar-nav flex-row">
             <li class="nav-item"><a class="nav-link" href="http://av21.avcr.cz/CeTTAV/">{% trans 'CAS strategy' %}</a>
@@ -66,11 +66,20 @@
     </div> <!-- /container-fluid -->
 
     <footer class="footer text-muted fixed-bottom">
-      <ul class="nav mx-4">
-        <li class="nav-item"><a class="nav-link" href="http://www.avcr.cz"><i class="fa fa-adn"></i> {% trans 'CAS' %}</a>
-        <li class="nav-item"><a class="nav-link" href="http://av21.avcr.cz/CeTTAV/"><i class="fa fa-share-square"></i> {% trans 'CAS strategy' %}</a>
-        <li class="nav-item"><a class="nav-link" href="http://www.ssc.cas.cz/struktura-organizace/cettav.html"><i class="fa fa-recycle"></i> {% trans 'Transfer of technologies' %}</a>
-      </ul>
+      <div class="clearfix">
+        <div class="float-left">
+          <ul class="nav mx-4">
+            <li class="nav-item"><a class="nav-link" href="http://www.avcr.cz"><i class="fa fa-adn"></i> {% trans 'CAS' %}</a>
+            <li class="nav-item"><a class="nav-link" href="http://av21.avcr.cz/CeTTAV/"><i class="fa fa-share-square"></i> {% trans 'CAS strategy' %}</a>
+            <li class="nav-item"><a class="nav-link" href="http://www.ssc.cas.cz/struktura-organizace/cettav.html"><i class="fa fa-recycle"></i> {% trans 'Transfer of technologies' %}</a>
+          </ul>
+        </div>
+        <div class="float-right">
+          <ul class="nav mx-4">
+            <li class="nav-item float-right"><a class="nav-link" href="{% url 'admin:index' %}"><i class="fa fa-pencil"></i> {% trans 'Web administration' %}</a>
+          </ul>
+        </div>
+      </div>
       <p class="mx-5">{% trans 'This site is under development.' %}</p>
     </footer>
 

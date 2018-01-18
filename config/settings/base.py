@@ -178,6 +178,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         # See: https://docs.djangoproject.com/en/dev/ref/settings/#template-dirs
         'DIRS': [
+            str(ROOT_DIR.path('acatto/templates/acatto')),
             str(APPS_DIR.path('templates')),
         ],
         'OPTIONS': {
