@@ -1,5 +1,6 @@
 from django.conf import settings
 from django.conf.urls import include, url
+from django.conf.urls.i18n import i18n_patterns
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.views.generic import TemplateView
@@ -28,6 +29,9 @@ urlpatterns = [
 
 if JET:
     urlpatterns.append(url('^jet/', include('jet.urls')))
+
+urlpatterns = i18n_patterns(*urlpatterns)
+
 
 if settings.DEBUG:
     # This allows the error pages to be debugged during development, just visit
