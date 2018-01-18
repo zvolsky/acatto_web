@@ -3,93 +3,91 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-18 17:30+0100\n"
-"PO-Revision-Date: 2018-01-18 16:25+0100\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: cs_CZ\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.5\n"
 
 #: acatto_web/templates/account/account_inactive.html:5
 #: acatto_web/templates/account/account_inactive.html:8
 msgid "Account Inactive"
-msgstr "Účet není aktivní"
+msgstr ""
 
 #: acatto_web/templates/account/account_inactive.html:10
 msgid "This account is inactive."
-msgstr "Tento účet není aktivní."
+msgstr ""
 
 #: acatto_web/templates/account/email.html:7
 msgid "Account"
-msgstr "Účet"
+msgstr ""
 
 #: acatto_web/templates/account/email.html:10
 msgid "E-mail Addresses"
-msgstr "E-mail"
+msgstr ""
 
 #: acatto_web/templates/account/email.html:13
 msgid "The following e-mail addresses are associated with your account:"
-msgstr "Tyto e-maily jsou asociovány s vaším účtem:"
+msgstr ""
 
 #: acatto_web/templates/account/email.html:27
 msgid "Verified"
-msgstr "Ověřeno"
+msgstr ""
 
 #: acatto_web/templates/account/email.html:29
 msgid "Unverified"
-msgstr "Neověřeno"
+msgstr ""
 
 #: acatto_web/templates/account/email.html:31
 msgid "Primary"
-msgstr "Hlavní"
+msgstr ""
 
 #: acatto_web/templates/account/email.html:37
 msgid "Make Primary"
-msgstr "Nastavit jako hlavní"
+msgstr ""
 
 #: acatto_web/templates/account/email.html:38
 msgid "Re-send Verification"
-msgstr "Znova zaslat výzvu k ověření"
+msgstr ""
 
 #: acatto_web/templates/account/email.html:39
 msgid "Remove"
-msgstr "Odstranit"
+msgstr ""
 
 #: acatto_web/templates/account/email.html:46
 msgid "Warning:"
-msgstr "Varování:"
+msgstr ""
 
 #: acatto_web/templates/account/email.html:46
 msgid ""
 "You currently do not have any e-mail address set up. You should really add "
 "an e-mail address so you can receive notifications, reset your password, etc."
 msgstr ""
-"Momentálně nemáte uvedenou žádnou mailovou adresu. Měl(a) byste ji zadat, "
-"abyste mohla dostávat notifikace, resetovat (zapomenuté) heslo, apod."
 
 #: acatto_web/templates/account/email.html:51
 msgid "Add E-mail Address"
-msgstr "Přidat e-mailovou adresu"
+msgstr ""
 
 #: acatto_web/templates/account/email.html:56
 msgid "Add E-mail"
-msgstr "Přidat e-mail"
+msgstr ""
 
 #: acatto_web/templates/account/email.html:66
 msgid "Do you really want to remove the selected e-mail address?"
-msgstr "Opravdu chcete odstranit vybranou adresu?"
+msgstr ""
 
 #: acatto_web/templates/account/email_confirm.html:6
 #: acatto_web/templates/account/email_confirm.html:10
 msgid "Confirm E-mail Address"
-msgstr "Potvrďte e-mailovou adresu"
+msgstr ""
 
 #: acatto_web/templates/account/email_confirm.html:16
 #, python-format
@@ -97,12 +95,10 @@ msgid ""
 "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
 "address for user %(user_display)s."
 msgstr ""
-"Prosím potvrďte, že <a href=\"mailto:%(email)s\">%(email)s</a> je mailová "
-"adresa uživatele %(user_display)s."
 
 #: acatto_web/templates/account/email_confirm.html:20
 msgid "Confirm"
-msgstr "Potvrdit"
+msgstr ""
 
 #: acatto_web/templates/account/email_confirm.html:27
 #, python-format
@@ -110,15 +106,13 @@ msgid ""
 "This e-mail confirmation link expired or is invalid. Please <a href="
 "\"%(email_url)s\">issue a new e-mail confirmation request</a>."
 msgstr ""
-"Tomuto potvrzovacímu odkazu uplynula platnost nebo je nesprávný. Prosím <a "
-"href=\"%(email_url)s\">vytvořte si novou žádost o ověření</a>."
 
 #: acatto_web/templates/account/login.html:7
 #: acatto_web/templates/account/login.html:11
 #: acatto_web/templates/account/login.html:44
 #: acatto_web/templates/base_orig.html:62
 msgid "Sign In"
-msgstr "Přihlásit se"
+msgstr ""
 
 #: acatto_web/templates/account/login.html:16
 #, python-format
@@ -128,13 +122,10 @@ msgid ""
 "up</a>\n"
 "for a %(site_name)s account and sign in below:"
 msgstr ""
-"Prosím, přihlaste se některým ze svých účtů u jiných poskytovatelů.\n"
-"Nebo <a href=\"%(signup_url)s\">se zaregistrujte</a>\n"
-"k %(site_name)s účtu a přihlaste se níže:"
 
 #: acatto_web/templates/account/login.html:26
 msgid "or"
-msgstr "nebo"
+msgstr ""
 
 #: acatto_web/templates/account/login.html:33
 #, python-format
@@ -142,23 +133,21 @@ msgid ""
 "If you have not created an account yet, then please\n"
 "<a href=\"%(signup_url)s\">sign up</a> first."
 msgstr ""
-"Jestliže jste si zatím nevytvořil(a) účet, tak se\n"
-"prosím nejprve <a href=\"%(signup_url)s\">zaregistrujte</a>."
 
 #: acatto_web/templates/account/login.html:43
 msgid "Forgot Password?"
-msgstr "Zapomněl(a) jste heslo?"
+msgstr ""
 
 #: acatto_web/templates/account/logout.html:5
 #: acatto_web/templates/account/logout.html:8
 #: acatto_web/templates/account/logout.html:17
 #: acatto_web/templates/base_orig.html:53
 msgid "Sign Out"
-msgstr "Odhlásit se"
+msgstr ""
 
 #: acatto_web/templates/account/logout.html:10
 msgid "Are you sure you want to sign out?"
-msgstr "Jste si jistý/á, že se chcete odhlásit?"
+msgstr ""
 
 #: acatto_web/templates/account/password_change.html:6
 #: acatto_web/templates/account/password_change.html:9
@@ -168,42 +157,38 @@ msgstr "Jste si jistý/á, že se chcete odhlásit?"
 #: acatto_web/templates/account/password_reset_from_key_done.html:4
 #: acatto_web/templates/account/password_reset_from_key_done.html:7
 msgid "Change Password"
-msgstr "Změnit heslo"
+msgstr ""
 
 #: acatto_web/templates/account/password_reset.html:7
 #: acatto_web/templates/account/password_reset.html:11
 #: acatto_web/templates/account/password_reset_done.html:6
 #: acatto_web/templates/account/password_reset_done.html:9
 msgid "Password Reset"
-msgstr "Reset hesla"
+msgstr ""
 
 #: acatto_web/templates/account/password_reset.html:16
 msgid ""
 "Forgotten your password? Enter your e-mail address below, and we'll send you "
 "an e-mail allowing you to reset it."
 msgstr ""
-"Zapomněl(a) jste heslo? Zadejte níže svoji e-mailovou adresu a my vám "
-"zašleme mail pro možnost restu hesla."
 
 #: acatto_web/templates/account/password_reset.html:21
 msgid "Reset My Password"
-msgstr "Resetuj moje heslo"
+msgstr ""
 
 #: acatto_web/templates/account/password_reset.html:24
 msgid "Please contact us if you have any trouble resetting your password."
-msgstr "Prosím, kontaktujte nás, pokud se vám nedaří si nastavit nové heslo."
+msgstr ""
 
 #: acatto_web/templates/account/password_reset_done.html:15
 msgid ""
 "We have sent you an e-mail. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
-"Zaslali jsme vám e-mail. Prosím, kontaktujte nás, pokud jej během několika "
-"minut neobdržíte."
 
 #: acatto_web/templates/account/password_reset_from_key.html:8
 msgid "Bad Token"
-msgstr "Chybné ověření"
+msgstr ""
 
 #: acatto_web/templates/account/password_reset_from_key.html:12
 #, python-format
@@ -212,57 +197,53 @@ msgid ""
 "used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
 "a>."
 msgstr ""
-"Odkaz na reset hesla je neplatný, možná proto, že byl již dříve použit. "
-"Prosím, vyžádejte si <a href=\"%(passwd_reset_url)s\">nový reset hesla</a>."
 
 #: acatto_web/templates/account/password_reset_from_key.html:18
 msgid "change password"
-msgstr "změnit heslo"
+msgstr ""
 
 #: acatto_web/templates/account/password_reset_from_key.html:21
 #: acatto_web/templates/account/password_reset_from_key_done.html:8
 msgid "Your password is now changed."
-msgstr "Vaše heslo bylo právě změněno."
+msgstr ""
 
 #: acatto_web/templates/account/password_set.html:6
 #: acatto_web/templates/account/password_set.html:9
 #: acatto_web/templates/account/password_set.html:14
 msgid "Set Password"
-msgstr "Nastavit heslo"
+msgstr ""
 
 #: acatto_web/templates/account/signup.html:6
 msgid "Signup"
-msgstr "Registrace"
+msgstr ""
 
 #: acatto_web/templates/account/signup.html:9
 #: acatto_web/templates/account/signup.html:19
 #: acatto_web/templates/base_orig.html:58
 msgid "Sign Up"
-msgstr "Zaregistrovat se"
+msgstr ""
 
 #: acatto_web/templates/account/signup.html:11
 #, python-format
 msgid ""
 "Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
 msgstr ""
-"Máte již účet vytvořený? Pak se prosím <a href=\"%(login_url)s\">přihlašte</"
-"a>."
 
 #: acatto_web/templates/account/signup_closed.html:5
 #: acatto_web/templates/account/signup_closed.html:8
 msgid "Sign Up Closed"
-msgstr "Registrace není možná"
+msgstr ""
 
 #: acatto_web/templates/account/signup_closed.html:10
 msgid "We are sorry, but the sign up is currently closed."
-msgstr "Omlouváme se, ale registrace nyní není možná."
+msgstr ""
 
 #: acatto_web/templates/account/verification_sent.html:5
 #: acatto_web/templates/account/verification_sent.html:8
 #: acatto_web/templates/account/verified_email_required.html:5
 #: acatto_web/templates/account/verified_email_required.html:8
 msgid "Verify Your E-mail Address"
-msgstr "Ověřte svoji e-mailovou adresu"
+msgstr ""
 
 #: acatto_web/templates/account/verification_sent.html:10
 msgid ""
@@ -270,9 +251,6 @@ msgid ""
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
-"Poslali jsme vám mail pro ověření e-mailové adresy. Prosím klikněte na odkaz "
-"v mailu a tím dokončíte postup registrace. Prosím, kontaktujte nás, pokud "
-"mail nedostanete během několika minut."
 
 #: acatto_web/templates/account/verified_email_required.html:12
 msgid ""
@@ -280,8 +258,6 @@ msgid ""
 "you are who you claim to be. For this purpose, we require that you\n"
 "verify ownership of your e-mail address. "
 msgstr ""
-"Zde vyžadujeme, abyste ověřil(a),\n"
-"že vám patří uvedená e-mailová adresa."
 
 #: acatto_web/templates/account/verified_email_required.html:16
 msgid ""
@@ -289,9 +265,6 @@ msgid ""
 "verification. Please click on the link inside this e-mail. Please\n"
 "contact us if you do not receive it within a few minutes."
 msgstr ""
-"Poslali jsme vám e-mail pro ověření.\n"
-"Prosím klikněte na odkaz v mailu.\n"
-"Prosím kontaktujte nás, pokud mail během několika minut nedostanete."
 
 #: acatto_web/templates/account/verified_email_required.html:20
 #, python-format
@@ -299,49 +272,35 @@ msgid ""
 "<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
 "mail address</a>."
 msgstr ""
-"<strong>Poznámka:</strong> vždy můžete <a href=\"%(email_url)s\">změnit "
-"svoji e-mailovou adresu</a>."
 
 #: acatto_web/templates/base.html:43 acatto_web/templates/base.html:73
 msgid "CAS strategy"
-msgstr "Strategie AV21"
+msgstr ""
 
 #: acatto_web/templates/base.html:44 acatto_web/templates/base.html:74
 msgid "Transfer of technologies"
-msgstr "Transfer technologií"
+msgstr ""
 
 #: acatto_web/templates/base.html:61
 msgid "This page is under development."
-msgstr "Stránka je zatím ve vývoji."
+msgstr ""
 
 #: acatto_web/templates/base.html:72
 msgid "CAS"
-msgstr "AV ČR"
+msgstr ""
 
 #: acatto_web/templates/base.html:79
 msgid "Web administration"
-msgstr "Administrace webu"
+msgstr ""
 
 #: acatto_web/templates/base.html:83
 msgid "This site is under development."
-msgstr "Tato aplikace je zatím ve vývoji."
+msgstr ""
 
 #: acatto_web/templates/base_orig.html:49
 msgid "My Profile"
-msgstr "Můj profil"
+msgstr ""
 
 #: acatto_web/users/models.py:13
 msgid "Name of User"
-msgstr "Jméno uživatele"
-
-#~ msgid "Go to home page"
-#~ msgstr "Přejděte na úvodní stranu"
-
-#~ msgid "cas.cz partner"
-#~ msgstr "partner AV ČR"
-
-#~ msgid "Home"
-#~ msgstr "Hlavní stránka"
-
-#~ msgid "About"
-#~ msgstr "O webu"
+msgstr ""

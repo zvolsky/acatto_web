@@ -4,6 +4,12 @@
 
 from django.shortcuts import render_to_response
 
+from django.utils.translation import gettext_lazy as _
+
+from .models import Product, Offer
+
 
 def products(request):
-    return render_to_response('products.html')
+    products = Product.objects.all()
+    offers = Offer.objects.all()
+    return render_to_response('products.html', {'products': products, 'offers': offers})

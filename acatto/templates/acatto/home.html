@@ -1,10 +1,12 @@
 {% extends "base.html" %}
 
+{% load i18n %}
+
 {% block content %}
 <div class="jumbotron text-center">
-    <h2>Akademie věd České Republiky</h2>
-    <p>AV ČR Vám nabízí vědeckou, aplikační nebo investiční spolupráci na svých projektech, pronájem zdrojů i finální produkty.</p>
-    <a href="{% url 'products' %}" class="btn btn-success">chci zjistit více</a>
+    <h2>{% blocktrans %}Akademie věd ČR{% endblocktrans %}</h2>
+    <p>{% blocktrans %}AV ČR Vám nabízí vědeckou, aplikační nebo investiční spolupráci na svých projektech, pronájem zdrojů i finální produkty.{% endblocktrans %}</p>
+    <a href="{% url 'products' %}" class="btn btn-success">{% trans 'chci zjistit více' %}</a>
 </div>
 
 <div class="container" style="height: 400px">

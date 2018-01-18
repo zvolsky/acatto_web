@@ -11,7 +11,7 @@ msgstr ""
 "PO-Revision-Date: 2018-01-18 17:31+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: cs_CZ\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,181 +21,183 @@ msgstr ""
 #: acatto/models.py:132 acatto/models.py:141 acatto/models.py:150
 #: acatto/models.py:159
 msgid "Product"
-msgstr "Produkt"
+msgstr ""
 
 #: acatto/admin.py:30 acatto/models.py:108
 msgid "Products"
-msgstr "Produkty"
+msgstr ""
 
 #: acatto/admin.py:45 acatto/admin.py:99 acatto/models.py:160
 #: acatto/models.py:169
 msgid "Author"
-msgstr "Autor"
+msgstr ""
 
 #: acatto/admin.py:46 acatto/admin.py:100
 msgid "Authors"
-msgstr "Autoři"
+msgstr ""
 
 #: acatto/admin.py:51 acatto/admin.py:87 acatto/models.py:30
 #: acatto/models.py:151 acatto/models.py:168
 msgid "Team"
-msgstr "Tým"
+msgstr ""
 
 #: acatto/admin.py:52 acatto/admin.py:88 acatto/models.py:31
 msgid "Teams"
-msgstr "Týmy"
+msgstr ""
 
 #: acatto/admin.py:57
 msgid "Product localization"
-msgstr "Lokalizace produktu"
+msgstr ""
 
 #: acatto/admin.py:58
 msgid "Product localizations"
-msgstr "Lokalizace produktu"
+msgstr ""
 
 #: acatto/admin.py:63 acatto/models.py:78 acatto/models.py:133
 msgid "Offer type"
-msgstr "Typ nabídky"
+msgstr ""
 
 #: acatto/admin.py:64 acatto/models.py:79
 msgid "Offer types"
-msgstr "Typy nabídky"
+msgstr ""
 
 #: acatto/admin.py:75 acatto/models.py:53 acatto/models.py:142
 msgid "Branch"
-msgstr "Obor"
+msgstr ""
 
 #: acatto/admin.py:76 acatto/models.py:54
 msgid "Branches"
-msgstr "Obory"
+msgstr ""
 
 #: acatto/models.py:11 acatto/models.py:23 acatto/models.py:35
 #: acatto/models.py:47 acatto/models.py:72 acatto/models.py:97
 #: acatto/models.py:119
 msgid "Name"
-msgstr "Název"
+msgstr ""
 
 #: acatto/models.py:17
 msgid "Institute"
-msgstr "Instituce"
+msgstr ""
 
 #: acatto/models.py:18
 msgid "Institutes"
-msgstr "Instituce"
+msgstr ""
 
 #: acatto/models.py:41
 msgid "Industry"
-msgstr "Odvětví"
+msgstr ""
 
 #: acatto/models.py:42
 msgid "Industries"
-msgstr "Odvětví"
+msgstr ""
 
 #: acatto/models.py:58
 msgid "Lastname"
-msgstr "Příjmení"
+msgstr ""
 
 #: acatto/models.py:59
 msgid "Other names"
-msgstr "Další jména"
+msgstr ""
 
 #: acatto/models.py:60
 msgid "Title before"
-msgstr "Titul před jménem"
+msgstr ""
 
 #: acatto/models.py:61
 msgid "Title after"
-msgstr "Titul za jménem"
+msgstr ""
 
 #: acatto/models.py:67
 msgid "Person"
-msgstr "Osoba"
+msgstr ""
 
 #: acatto/models.py:68
 msgid "People"
-msgstr "Osoby"
+msgstr ""
 
 #: acatto/models.py:93
 msgid "Transfer adviser"
-msgstr "Poradce pro transfer"
+msgstr ""
 
 #: acatto/models.py:94
 msgid "Depositor"
-msgstr "Vkladatel"
+msgstr ""
 
 #: acatto/models.py:100
 msgid "Published"
-msgstr "Publikováno"
+msgstr ""
 
 #: acatto/models.py:113
 msgid "english"
-msgstr "angličtina"
+msgstr ""
 
 #: acatto/models.py:114
 msgid "czech"
-msgstr "čeština"
+msgstr ""
 
 #: acatto/models.py:120
 msgid "Synopsis"
-msgstr "Anotace"
+msgstr ""
 
 #: acatto/models.py:121
 msgid "Content"
-msgstr "Obsah"
+msgstr ""
 
 #: acatto/models.py:136
 msgid "Product offer type"
-msgstr "Typ nabídky produktu"
+msgstr ""
 
 #: acatto/models.py:137
 msgid "Product offer types"
-msgstr "Typy nabídky produktu"
+msgstr ""
 
 #: acatto/models.py:145
 msgid "Product_Branch"
-msgstr "Obor produktu"
+msgstr ""
 
 #: acatto/models.py:146
 msgid "Product_Branches"
-msgstr "Obory produktu"
+msgstr ""
 
 #: acatto/models.py:154
 msgid "Product team"
-msgstr "Tým produktu"
+msgstr ""
 
 #: acatto/models.py:155
 msgid "Product teams"
-msgstr "Týmy produktu"
+msgstr ""
 
 #: acatto/models.py:163
 msgid "Product author"
-msgstr "Autor produktu"
+msgstr ""
 
 #: acatto/models.py:164
 msgid "Product authors"
-msgstr "Autoři produktu"
+msgstr ""
 
 #: acatto/models.py:173
 msgid "Team membership"
-msgstr "Člen týmu"
+msgstr ""
 
 #: acatto/models.py:174
 msgid "Team memberships"
-msgstr "Členové týmu"
+msgstr ""
 
 #: acatto/templates/acatto/home.html:7
 msgid "Akademie věd ČR"
-msgstr "Akademie věd ČR"
+msgstr "Czech Academy of Sciences"
 
 #: acatto/templates/acatto/home.html:8
 msgid ""
 "AV ČR Vám nabízí vědeckou, aplikační nebo investiční spolupráci na svých "
 "projektech, pronájem zdrojů i finální produkty."
 msgstr ""
+"CAS offers scientific, application or capital collaboration on its projects, "
+"rent of its sources and final products."
 
 #: acatto/templates/acatto/home.html:9
 msgid "chci zjistit více"
-msgstr "chci zjistit více"
+msgstr "Tell me more"
 
 #: acatto/templates/acatto/products.html:15
 msgid "Nabídku produktů připravujeme."
@@ -203,4 +205,4 @@ msgstr ""
 
 #: acatto/views.py:13
 msgid "Licence"
-msgstr "Licence"
+msgstr "Licensing"
