@@ -58,6 +58,8 @@ django-jet==1.0.7
 #git+https://github.com/zvolsky/django-jet.git
 
 bootstrap-admin
+
+# WARNING: this will uninstall django and install the older version; however this doesn't apply on heroku where things run well
 django-admin-bootstrapped
 
 django-ckeditor==5.4.0
