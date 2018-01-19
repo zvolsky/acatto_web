@@ -16,6 +16,7 @@ def products(request):
 
 
 def product(request, product_id):
+    import django
     # product = Product.objects.get(pk=int(product_id))
     product = ProductLoc.objects.filter(product=int(product_id)).filter(lang__startswith='cs_CZ')[0]
-    return render_to_response('product.html', {'product': product})
+    return render_to_response('product.html', {'product': product, 'ver': django.__version__})
