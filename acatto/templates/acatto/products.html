@@ -3,17 +3,35 @@
 {% load i18n %}
 
 {% block content %}
-<div class="btn-group btn-small my-2">
-  {% for offer in offers %}
-    <button class="btn btn-smallest btn-info">{% trans offer.name %}</button>
-  {% endfor %}
-</div>
-
 {% if products %}
+  <p class="small font-weight-light mx-2 mt-2 mb-0 pb-0">{% trans 'přepnutím typu nabídky vyřadíte/zařadíte odpovídající produkty' %}</p>
+  <div class="btn-group btn-small mb-2">
+    {% for offer in offers %}
+      <button class="btn btn-success offer-btn">{% trans offer.name %}</button>
+    {% endfor %}
+  </div>
+
+  {% for product in products %}
+    <p class="xxx">{% trans product.name %}</p>
+  {% endfor %}
+
 {% else %}
-  <div class="alert alert-warning">
-    {% trans 'Nabídku produktů připravujeme.' %}
+  <div class="jumbotron text-center mt-5">
+    <h4>{% trans 'Nabídku produktů připravujeme.' %}</h4>
   </div>
 {% endif %}
-
 {% endblock %}
+
+
+{% block js %}
+  $('.offer-btn').click(function() {
+    var offerBtn = $(event.target);
+    if (offerBtn.hasClass('btn-success')) {
+      offerBtn.removeClass('btn-success');
+      offerBtn.addClass('btn-outline-danger');
+    } else {
+      offerBtn.removeClass('btn-outline-danger');
+      offerBtn.addClass('btn-success');
+    }
+  });
+{% endblock js %}
