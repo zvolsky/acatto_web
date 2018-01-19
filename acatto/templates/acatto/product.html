@@ -4,8 +4,16 @@
 
 {% block content %}
 {% if product %}
+  <div class="text-center my-2">
+    <a href="/products" class="btn btn-success">{% trans 'seznam produktů' %}</a>
+  </div>
+
   <div class="jumbotron">
-    <h2>{% trans product.name %}</h2>
+    <h4>{% trans product.name %}</h4>
+    <p>{% trans product.anotation %}</p>
+  </div>
+  <div class="col-10 offset-1 alert alert-warning">
+    {% trans product.content|safe %}
   </div>
 {% endif %}
 {% endblock %}
