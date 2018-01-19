@@ -57,6 +57,7 @@ django-compressor==2.2
 django-jet==1.0.7
 #git+https://github.com/zvolsky/django-jet.git
 
+# douglasmiranda/django-admin-bootstrap
 bootstrap-admin
 
 # WARNING: this will uninstall django and install the older version; however this doesn't apply on heroku where things run well
