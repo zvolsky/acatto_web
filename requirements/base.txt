@@ -57,6 +57,9 @@ django-compressor==2.2
 django-jet==1.0.7
 #git+https://github.com/zvolsky/django-jet.git
 
+bootstrap-admin
+django-admin-bootstrapped --no-deps
+
 django-ckeditor==5.4.0
 
 git+https://github.com/zvolsky/django-smoke-tests.git

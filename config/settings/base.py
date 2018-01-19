@@ -11,7 +11,10 @@ import environ
 import os
 
 
-JET = True
+JET = False
+BOOTSTRAP_ADMIN = True      # bootstrap-admin
+BOOTSTRAPPED_ADMIN = False  # django-admin-bootstrapped --no-deps  # otherwise will reinstall django
+
 
 ROOT_DIR = environ.Path(__file__) - 3  # (acatto_web/config/settings/base.py - 3 = acatto_web/)
 APPS_DIR = ROOT_DIR.path('acatto_web')
@@ -71,6 +74,11 @@ LOCAL_APPS = [
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 if JET:
     INSTALLED_APPS.insert(0, 'jet')
+elif BOOTSTRAP_ADMIN:
+    INSTALLED_APPS.insert(0, 'bootstrap_admin')
+elif BOOTSTRAPPED_ADMIN:
+    INSTALLED_APPS.insert(0, 'django_admin_bootstrapped')
+
 
 # MIDDLEWARE CONFIGURATION
 # ------------------------------------------------------------------------------
