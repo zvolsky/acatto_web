@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block content %}
+{% if product %}
+  <div class="jumbotron">
+    <h2>{% trans product.name %}</h2>
+  </div>
+{% endif %}
+{% endblock %}
+
+
+{% block js %}
+  $('.offer-btn').click(function() {
+    var offerBtn = $(event.target);
+    if (offerBtn.hasClass('btn-success')) {
+      offerBtn.removeClass('btn-success');
+      offerBtn.addClass('btn-outline-danger');
+    } else {
+      offerBtn.removeClass('btn-outline-danger');
+      offerBtn.addClass('btn-success');
+    }
+  });
+
+  $('.productRow').click(function() {
+    var row = $(event.target);
+    window.location.href = '/product/id=' + row.attr('data-id');
+  });
+{% endblock js %}

@@ -5,15 +5,28 @@
 {% block content %}
 {% if products %}
   <p class="small font-weight-light mx-2 mt-2 mb-0 pb-0">{% trans 'přepnutím typu nabídky vyřadíte/zařadíte odpovídající produkty' %}</p>
-  <div class="btn-group btn-small mb-2">
+  <div class="btn-group btn-small mb-5">
     {% for offer in offers %}
       <button class="btn btn-success offer-btn">{% trans offer.name %}</button>
     {% endfor %}
   </div>
 
-  {% for product in products %}
-    <p class="xxx">{% trans product.name %}</p>
-  {% endfor %}
+  <div class="col-10 offset-1">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>{% trans 'Nabídka' %}</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for product in products %}
+      <tr class="productRow">
+        <td data-id="{{ product.id }}">{% trans product.name %}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
 
 {% else %}
   <div class="jumbotron text-center mt-5">
@@ -33,5 +46,10 @@
       offerBtn.removeClass('btn-outline-danger');
       offerBtn.addClass('btn-success');
     }
+  });
+
+  $('.productRow').click(function() {
+    var row = $(event.target);
+    window.location.href = '/product/' + row.attr('data-id');
   });
 {% endblock js %}
