@@ -12,10 +12,12 @@ import acatto.views
 
 
 urlpatterns = [
-    url(r'^$', TemplateView.as_view(template_name='acatto/home.html'), name='home'),
+    url(r'^$', acatto.views.rnd, name='rnd'),
+    #url(r'^$', TemplateView.as_view(template_name='acatto/home.html'), name='home'),
 
     # Django Admin, use {% url 'admin:index' %}
-    url(settings.ADMIN_URL, admin.site.urls),
+    url(settings.ADMIN_URL, acatto.views.rnd, name='rnd'),
+    #url(settings.ADMIN_URL, admin.site.urls),
 
     # User management
     #url(r'^users/', include('acatto_web.users.urls', namespace='users')),
