@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-22 20:22+0100\n"
-"PO-Revision-Date: 2018-01-22 19:34+0100\n"
+"POT-Creation-Date: 2018-01-22 23:29+0100\n"
+"PO-Revision-Date: 2018-01-22 23:32+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: cs_CZ\n"
@@ -184,16 +184,16 @@ msgid "Team memberships"
 msgstr "Členové týmu"
 
 #: acatto/templates/acatto/home.html:7
-msgid "Hyperborean Academy of knowledge"
-msgstr "Hyperboreánská Akademie vědění"
+msgid "Research Institute"
+msgstr "Výzkumný Ústav"
 
 #: acatto/templates/acatto/home.html:8
 msgid ""
-"AK of Hyperborea offers to you a scientific, application or capital "
-"collaboration on its projects, lease of sources and final products."
+"RIn offers to you a scientific, application or capital collaboration on its "
+"projects, lease of sources and final products."
 msgstr ""
-"AV Hyperborei vám nabízí vědeckou, aplikační a investiční spolupráci na "
-"svých projektech, pronájem a finální produkty."
+"VUs vám nabízí vědeckou, aplikační a investiční spolupráci na svých "
+"projektech, pronájem a finální produkty."
 
 #: acatto/templates/acatto/home.html:9
 msgid "chci zjistit více"
@@ -214,6 +214,9 @@ msgstr "Nabídka"
 #: acatto/templates/acatto/products.html:33
 msgid "Nabídku produktů připravujeme."
 msgstr "Nabídku produktů připravujeme."
+
+#~ msgid "Hyperborean Academy of knowledge"
+#~ msgstr "Hyperboreánská Akademie vědění"
 
 #~ msgid "Akademie věd ČR"
 #~ msgstr "Akademie věd ČR"

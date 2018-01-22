@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-22 20:22+0100\n"
+"POT-Creation-Date: 2018-01-22 23:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -271,6 +271,14 @@ msgstr ""
 msgid ""
 "<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
 "mail address</a>."
+msgstr ""
+
+#: acatto_web/templates/base.html:7
+msgid "VUs Spolupráce"
+msgstr ""
+
+#: acatto_web/templates/base.html:39
+msgid "Výzkumný ústav"
 msgstr ""
 
 #: acatto_web/templates/base.html:43 acatto_web/templates/base.html:78
