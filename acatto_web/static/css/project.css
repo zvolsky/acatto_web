@@ -28,9 +28,21 @@
   margin-right: 10px;
 }
 
+html {
+  font-size: 12px;
+  line-height: 1;
+}
+body {
+  font-size: 12px;
+  line-height: 1;
+}
+div {
+  font-size: 12px;
+  line-height: 1;
+}
 * {
-   font-size: 14px;
-   line-height: 1.2;
+  font-size: 12px;
+  line-height: 1;
 }
 
 body > .footer {
