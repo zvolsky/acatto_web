@@ -47,7 +47,10 @@
       </nav>
     </header>
 
-    <div class="alert alert-danger m-3">{% trans 'This is just a starting application demo. Design is not ready at all but prepared for the discussion with the graphic designer. English here is really pure but ready for the final translation into correct english. Translation system en/cs/.. include translation of db data is almost production ready and you can try it using administration (tto, pwd: vaclavak, see Offer types there). If interested in such application or any other modern, cheap and safe web application, pls contact us: zvolsky@seznam.cz' %}</div>
+    <div class="alert alert-warning m-4">
+      {% trans 'This is just a starting application demo. Design is not ready at all but prepared for the discussion with the graphic designer. English here is really pure but ready for the final translation into correct english.' %}<br>
+      {% trans 'Translation system en/cs/.. include translation of db data is almost production ready and you can try it using administration (tto, pwd: vaclavak, change Offer types there) and switching the language in browser settings or in url above.' %}<br>
+      <b>{% trans 'If interested in such application or any other modern, cheap and safe web application, pls contact us:' %}</b> zvolsky@seznam.cz</div>
 
     <div class="container-fluid">
       <div class="row flex-xl-nowrap">

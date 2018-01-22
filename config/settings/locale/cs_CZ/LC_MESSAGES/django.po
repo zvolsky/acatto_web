@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-22 19:55+0100\n"
-"PO-Revision-Date: 2018-01-22 19:58+0100\n"
+"POT-Creation-Date: 2018-01-22 20:22+0100\n"
+"PO-Revision-Date: 2018-01-22 20:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: cs_CZ\n"
@@ -302,44 +302,55 @@ msgstr ""
 "<strong>Poznámka:</strong> vždy můžete <a href=\"%(email_url)s\">změnit "
 "svoji e-mailovou adresu</a>."
 
-#: acatto_web/templates/base.html:43 acatto_web/templates/base.html:73
+#: acatto_web/templates/base.html:43 acatto_web/templates/base.html:78
 msgid "Our strategy"
 msgstr "Strategie HA22"
 
-#: acatto_web/templates/base.html:44 acatto_web/templates/base.html:74
+#: acatto_web/templates/base.html:44 acatto_web/templates/base.html:79
 msgid "Transfer of technologies"
 msgstr "Transfer technologií"
 
-#: acatto_web/templates/base.html:61
-msgid "This page is under development."
-msgstr "Stránka je zatím ve vývoji."
-
-#: acatto_web/templates/base.html:72
-msgid "HAK"
-msgstr "HAc"
-
-#: acatto_web/templates/base.html:79
-msgid "Web administration"
-msgstr "Administrace webu"
-
-#: acatto_web/templates/base.html:83
+#: acatto_web/templates/base.html:51
 msgid ""
 "This is just a starting application demo. Design is not ready at all but "
 "prepared for the discussion with the graphic designer. English here is "
-"really pure but ready for the final translation into correct english. "
+"really pure but ready for the final translation into correct english."
+msgstr ""
+"Toto je jen úvodní demo aplikace. Design je pouze naznačen pro diskuzi s "
+"grafikem. Angličtina je velmi hloupá, ale připravená (stejně jako jiný "
+"jazyk) pro finální překlad do správného znění."
+
+#: acatto_web/templates/base.html:52
+msgid ""
 "Translation system en/cs/.. include translation of db data is almost "
 "production ready and you can try it using administration (tto, pwd: "
-"vaclavak, see Offer types there). If interested in such application or any "
-"other modern, cheap and safe web application, pls contact us: zvolsky@seznam."
-"cz"
+"vaclavak, change Offer types there) and switching the language in browser "
+"settings or in url above."
 msgstr ""
-"Toto je pouze úvodní aplikační demo. Design není vůbec dokončen, jen "
-"naznačen pro diskuzi s grafikem. Angličtina je jistě příšerná, ale "
-"připravená pro finální překlad do správné angličtiny. Překladový systém en/"
-"cs/.. včetně překladu dat v databázi je téměř finální a můžete si ho "
-"vyzkoušet v administraci (tto, pwd: vaclavak, hledejte Typ nabídky). "
-"Zajímáte-li se o takovou nebo jakoukoli jinou moderní, levnou a bezpečnou "
-"webovou aplikaci, prosím, kontaktujte nás: zvolsky@seznam.cz"
+"Překladový systém en/cs/.. zahrnuje i překlad dat v databázi a je téměř "
+"finálně připravený. Můžete si jej vyzkoušet pomocí administrace (tto, heslo: "
+"vaclavak, změňte Typ nabídky) a přepnutím jazyka v nastavení prohlížeče nebo "
+"v url adrese nahoře."
+
+#: acatto_web/templates/base.html:53
+msgid ""
+"If interested in such application or any other modern, cheap and safe web "
+"application, pls contact us:"
+msgstr ""
+"Máte-li zájem o takovouto nebo jinou moderní, levnou a bezpečnou aplikaci, "
+"prosím, kontaktujte nás:"
+
+#: acatto_web/templates/base.html:66
+msgid "This page is under development."
+msgstr "Stránka je zatím ve vývoji."
+
+#: acatto_web/templates/base.html:77
+msgid "HAK"
+msgstr "HAc"
+
+#: acatto_web/templates/base.html:84
+msgid "Web administration"
+msgstr "Administrace webu"
 
 #: acatto_web/templates/base_orig.html:49
 msgid "My Profile"
@@ -356,6 +367,24 @@ msgstr "Čeština"
 #: config/settings/base.py:173
 msgid "English"
 msgstr "English"
+
+#~ msgid ""
+#~ "This is just a starting application demo. Design is not ready at all but "
+#~ "prepared for the discussion with the graphic designer. English here is "
+#~ "really pure but ready for the final translation into correct english. "
+#~ "Translation system en/cs/.. include translation of db data is almost "
+#~ "production ready and you can try it using administration (tto, pwd: "
+#~ "vaclavak, see Offer types there). If interested in such application or "
+#~ "any other modern, cheap and safe web application, pls contact us: "
+#~ "zvolsky@seznam.cz"
+#~ msgstr ""
+#~ "Toto je pouze úvodní aplikační demo. Design není vůbec dokončen, jen "
+#~ "naznačen pro diskuzi s grafikem. Angličtina je jistě příšerná, ale "
+#~ "připravená pro finální překlad do správné angličtiny. Překladový systém "
+#~ "en/cs/.. včetně překladu dat v databázi je téměř finální a můžete si ho "
+#~ "vyzkoušet v administraci (tto, pwd: vaclavak, hledejte Typ nabídky). "
+#~ "Zajímáte-li se o takovou nebo jakoukoli jinou moderní, levnou a bezpečnou "
+#~ "webovou aplikaci, prosím, kontaktujte nás: zvolsky@seznam.cz"
 
 #~ msgid "This site is under development."
 #~ msgstr "Tato aplikace je zatím ve vývoji."

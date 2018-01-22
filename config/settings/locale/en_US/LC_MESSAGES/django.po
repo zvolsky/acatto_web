@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-22 19:55+0100\n"
+"POT-Creation-Date: 2018-01-22 20:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -273,36 +273,45 @@ msgid ""
 "mail address</a>."
 msgstr ""
 
-#: acatto_web/templates/base.html:43 acatto_web/templates/base.html:73
+#: acatto_web/templates/base.html:43 acatto_web/templates/base.html:78
 msgid "Our strategy"
 msgstr ""
 
-#: acatto_web/templates/base.html:44 acatto_web/templates/base.html:74
+#: acatto_web/templates/base.html:44 acatto_web/templates/base.html:79
 msgid "Transfer of technologies"
 msgstr ""
 
-#: acatto_web/templates/base.html:61
-msgid "This page is under development."
-msgstr ""
-
-#: acatto_web/templates/base.html:72
-msgid "HAK"
-msgstr ""
-
-#: acatto_web/templates/base.html:79
-msgid "Web administration"
-msgstr ""
-
-#: acatto_web/templates/base.html:83
+#: acatto_web/templates/base.html:51
 msgid ""
 "This is just a starting application demo. Design is not ready at all but "
 "prepared for the discussion with the graphic designer. English here is "
-"really pure but ready for the final translation into correct english. "
+"really pure but ready for the final translation into correct english."
+msgstr ""
+
+#: acatto_web/templates/base.html:52
+msgid ""
 "Translation system en/cs/.. include translation of db data is almost "
 "production ready and you can try it using administration (tto, pwd: "
-"vaclavak, see Offer types there). If interested in such application or any "
-"other modern, cheap and safe web application, pls contact us: zvolsky@seznam."
-"cz"
+"vaclavak, change Offer types there) and switching the language in browser "
+"settings or in url above."
+msgstr ""
+
+#: acatto_web/templates/base.html:53
+msgid ""
+"If interested in such application or any other modern, cheap and safe web "
+"application, pls contact us:"
+msgstr ""
+
+#: acatto_web/templates/base.html:66
+msgid "This page is under development."
+msgstr ""
+
+#: acatto_web/templates/base.html:77
+msgid "HAK"
+msgstr ""
+
+#: acatto_web/templates/base.html:84
+msgid "Web administration"
 msgstr ""
 
 #: acatto_web/templates/base_orig.html:49
