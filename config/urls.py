@@ -25,6 +25,7 @@ urlpatterns = [
 
     url(r'^products/$', acatto.views.products, name='products'),
     url(r'^product/(?P<product_id>\d+)/$', acatto.views.product, name='product'),
+    url(r'^rnd/$', acatto.views.rnd, name='rnd'),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

@@ -20,3 +20,8 @@ def product(request, product_id):
     # product = Product.objects.get(pk=int(product_id))
     product = ProductLoc.objects.filter(product=int(product_id)).filter(lang__startswith='cs_CZ')[0]
     return render_to_response('product.html', {'product': product})
+
+
+def rnd(request):
+    import random
+    return render_to_response('rnd.html', {'rnd': str(random.random())})
