@@ -28,11 +28,9 @@
   margin-right: 10px;
 }
 
-html {
-  font-size: 14px;
-}
-body {
-  font-size: 14px;
+* {
+   font-size: 14px;
+   line-height: 1.2;
 }
 
 body > .footer {
