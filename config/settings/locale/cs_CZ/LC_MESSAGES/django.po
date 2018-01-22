@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-18 17:30+0100\n"
+"POT-Creation-Date: 2018-01-22 16:47+0100\n"
 "PO-Revision-Date: 2018-01-18 16:25+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -333,6 +333,14 @@ msgstr "Můj profil"
 #: acatto_web/users/models.py:13
 msgid "Name of User"
 msgstr "Jméno uživatele"
+
+#: config/settings/base.py:172
+msgid "Czech"
+msgstr ""
+
+#: config/settings/base.py:173
+msgid "English"
+msgstr ""
 
 #~ msgid "Go to home page"
 #~ msgstr "Přejděte na úvodní stranu"

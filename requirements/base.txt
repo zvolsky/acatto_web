@@ -6,7 +6,8 @@ wheel==0.30.0
 
 
 # Conservative Django
-django==1.11.9 # pyup: <2.0
+# django==1.11.9 # pyup: <2.0
+django==2.0.1
 
 # Configuration
 django-environ==0.4.4
@@ -64,5 +65,9 @@ bootstrap-admin
 django-admin-bootstrapped
 
 django-ckeditor==5.4.0
+
+# postgres jsonb db field translation
+#  this just has ugettext_lazy to properly translate admin column headings
+git+https://github.com/zvolsky/django-modeltrans.git
 
 git+https://github.com/zvolsky/django-smoke-tests.git

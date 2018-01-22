@@ -10,10 +10,12 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 import environ
 import os
 
+from django.utils.translation import ugettext_lazy as _
 
-JET = False
-BOOTSTRAP_ADMIN = True      # bootstrap-admin
-BOOTSTRAPPED_ADMIN = False  # django-admin-bootstrapped --no-deps  # otherwise will reinstall django
+
+JET = True
+BOOTSTRAP_ADMIN = False     # bootstrap-admin
+BOOTSTRAPPED_ADMIN = False  # django-admin-bootstrapped --no-deps  # otherwise will reinstall django (but on heroku works well)
 
 
 ROOT_DIR = environ.Path(__file__) - 3  # (acatto_web/config/settings/base.py - 3 = acatto_web/)
@@ -59,6 +61,7 @@ THIRD_PARTY_APPS = [
     'ckeditor',
     # 'ckeditor_uploader',       # zakomentováno s MEDIA_.., CKEDITOR_..
     # 'simple_history',
+    'modeltrans',
     'django_smoke_tests',
 ]
 
@@ -166,9 +169,13 @@ for app in INSTALLED_APPS:
 LANGUAGE_CODE = 'cs'
 
 LANGUAGES = (
-    ('cs', u'Čeština'),
-    ('en', u'English'),
+    ('cs', _('Czech')),
+    ('en', _('English')),
 )
+# ??? https://stackoverflow.com/questions/1329278/using-settings-languages-with-properly-translated-names-using-gettext
+# {% for lang in LANGUAGES %}
+#      {% trans lang.1 %}
+# {% endfor %}
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#site-id
 SITE_ID = 1

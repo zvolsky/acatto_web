@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from django.db import models
-from django.utils.translation import gettext_lazy as _
+from django.utils.translation import ugettext_lazy as _
+
+from modeltrans.fields import TranslationField
 #from simple_history.models import HistoricalRecords
 from ckeditor.fields import RichTextField
 #from ckeditor_uploader.fields import RichTextUploadingField
@@ -70,6 +72,8 @@ class Person(models.Model):  # authors + depositors + contact_tt
 
 class Offer(models.Model):
     name = models.CharField(_("Name"), max_length=128, unique=True)
+
+    i18n = TranslationField(fields=('name',))
 
     def __str__(self):
         return self.name

@@ -131,6 +131,7 @@ class BranchAdmin(ModelAdmin):
 
 class OfferAdmin(ModelAdmin):
     inlines = [OfferProductInline,]
+    list_display = ('name_i18n',)
 
 
 class PersonAdmin(ModelAdmin):

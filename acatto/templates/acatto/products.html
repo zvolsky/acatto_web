@@ -7,7 +7,7 @@
   <p class="small font-weight-light mx-2 mt-2 mb-0 pb-0">{% trans 'přepnutím typu nabídky vyřadíte/zařadíte odpovídající produkty' %}</p>
   <div class="btn-group btn-small mb-5">
     {% for offer in offers %}
-      <button class="btn btn-success offer-btn">{% trans offer.name %}</button>
+      <button class="btn btn-success offer-btn">{% trans offer.name_i18n %}</button>
     {% endfor %}
   </div>
 

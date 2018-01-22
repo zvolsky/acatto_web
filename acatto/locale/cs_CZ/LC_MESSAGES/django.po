@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-18 17:30+0100\n"
-"PO-Revision-Date: 2018-01-18 17:31+0100\n"
+"POT-Creation-Date: 2018-01-22 16:47+0100\n"
+"PO-Revision-Date: 2018-01-22 16:52+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: cs_CZ\n"
@@ -17,18 +17,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.5\n"
 
-#: acatto/admin.py:29 acatto/models.py:107 acatto/models.py:117
-#: acatto/models.py:132 acatto/models.py:141 acatto/models.py:150
-#: acatto/models.py:159
+#: acatto/admin.py:29 acatto/models.py:111 acatto/models.py:121
+#: acatto/models.py:136 acatto/models.py:145 acatto/models.py:154
+#: acatto/models.py:163
 msgid "Product"
 msgstr "Produkt"
 
-#: acatto/admin.py:30 acatto/models.py:108
+#: acatto/admin.py:30 acatto/models.py:112
 msgid "Products"
 msgstr "Produkty"
 
-#: acatto/admin.py:45 acatto/admin.py:99 acatto/models.py:160
-#: acatto/models.py:169
+#: acatto/admin.py:45 acatto/admin.py:99 acatto/models.py:164
+#: acatto/models.py:173
 msgid "Author"
 msgstr "Autor"
 
@@ -36,12 +36,12 @@ msgstr "Autor"
 msgid "Authors"
 msgstr "Autoři"
 
-#: acatto/admin.py:51 acatto/admin.py:87 acatto/models.py:30
-#: acatto/models.py:151 acatto/models.py:168
+#: acatto/admin.py:51 acatto/admin.py:87 acatto/models.py:32
+#: acatto/models.py:155 acatto/models.py:172
 msgid "Team"
 msgstr "Tým"
 
-#: acatto/admin.py:52 acatto/admin.py:88 acatto/models.py:31
+#: acatto/admin.py:52 acatto/admin.py:88 acatto/models.py:33
 msgid "Teams"
 msgstr "Týmy"
 
@@ -53,133 +53,133 @@ msgstr "Lokalizace produktu"
 msgid "Product localizations"
 msgstr "Lokalizace produktu"
 
-#: acatto/admin.py:63 acatto/models.py:78 acatto/models.py:133
+#: acatto/admin.py:63 acatto/models.py:82 acatto/models.py:137
 msgid "Offer type"
 msgstr "Typ nabídky"
 
-#: acatto/admin.py:64 acatto/models.py:79
+#: acatto/admin.py:64 acatto/models.py:83
 msgid "Offer types"
 msgstr "Typy nabídky"
 
-#: acatto/admin.py:75 acatto/models.py:53 acatto/models.py:142
+#: acatto/admin.py:75 acatto/models.py:55 acatto/models.py:146
 msgid "Branch"
 msgstr "Obor"
 
-#: acatto/admin.py:76 acatto/models.py:54
+#: acatto/admin.py:76 acatto/models.py:56
 msgid "Branches"
 msgstr "Obory"
 
-#: acatto/models.py:11 acatto/models.py:23 acatto/models.py:35
-#: acatto/models.py:47 acatto/models.py:72 acatto/models.py:97
-#: acatto/models.py:119
+#: acatto/models.py:13 acatto/models.py:25 acatto/models.py:37
+#: acatto/models.py:49 acatto/models.py:74 acatto/models.py:101
+#: acatto/models.py:123
 msgid "Name"
 msgstr "Název"
 
-#: acatto/models.py:17
+#: acatto/models.py:19
 msgid "Institute"
 msgstr "Instituce"
 
-#: acatto/models.py:18
+#: acatto/models.py:20
 msgid "Institutes"
 msgstr "Instituce"
 
-#: acatto/models.py:41
+#: acatto/models.py:43
 msgid "Industry"
 msgstr "Odvětví"
 
-#: acatto/models.py:42
+#: acatto/models.py:44
 msgid "Industries"
 msgstr "Odvětví"
 
-#: acatto/models.py:58
+#: acatto/models.py:60
 msgid "Lastname"
 msgstr "Příjmení"
 
-#: acatto/models.py:59
+#: acatto/models.py:61
 msgid "Other names"
 msgstr "Další jména"
 
-#: acatto/models.py:60
+#: acatto/models.py:62
 msgid "Title before"
 msgstr "Titul před jménem"
 
-#: acatto/models.py:61
+#: acatto/models.py:63
 msgid "Title after"
 msgstr "Titul za jménem"
 
-#: acatto/models.py:67
+#: acatto/models.py:69
 msgid "Person"
 msgstr "Osoba"
 
-#: acatto/models.py:68
+#: acatto/models.py:70
 msgid "People"
 msgstr "Osoby"
 
-#: acatto/models.py:93
+#: acatto/models.py:97
 msgid "Transfer adviser"
 msgstr "Poradce pro transfer"
 
-#: acatto/models.py:94
+#: acatto/models.py:98
 msgid "Depositor"
 msgstr "Vkladatel"
 
-#: acatto/models.py:100
+#: acatto/models.py:104
 msgid "Published"
 msgstr "Publikováno"
 
-#: acatto/models.py:113
+#: acatto/models.py:117
 msgid "english"
 msgstr "angličtina"
 
-#: acatto/models.py:114
+#: acatto/models.py:118
 msgid "czech"
 msgstr "čeština"
 
-#: acatto/models.py:120
+#: acatto/models.py:124
 msgid "Synopsis"
 msgstr "Anotace"
 
-#: acatto/models.py:121
+#: acatto/models.py:125
 msgid "Content"
 msgstr "Obsah"
 
-#: acatto/models.py:136
+#: acatto/models.py:140
 msgid "Product offer type"
 msgstr "Typ nabídky produktu"
 
-#: acatto/models.py:137
+#: acatto/models.py:141
 msgid "Product offer types"
 msgstr "Typy nabídky produktu"
 
-#: acatto/models.py:145
+#: acatto/models.py:149
 msgid "Product_Branch"
 msgstr "Obor produktu"
 
-#: acatto/models.py:146
+#: acatto/models.py:150
 msgid "Product_Branches"
 msgstr "Obory produktu"
 
-#: acatto/models.py:154
+#: acatto/models.py:158
 msgid "Product team"
 msgstr "Tým produktu"
 
-#: acatto/models.py:155
+#: acatto/models.py:159
 msgid "Product teams"
 msgstr "Týmy produktu"
 
-#: acatto/models.py:163
+#: acatto/models.py:167
 msgid "Product author"
 msgstr "Autor produktu"
 
-#: acatto/models.py:164
+#: acatto/models.py:168
 msgid "Product authors"
 msgstr "Autoři produktu"
 
-#: acatto/models.py:173
+#: acatto/models.py:177
 msgid "Team membership"
 msgstr "Člen týmu"
 
-#: acatto/models.py:174
+#: acatto/models.py:178
 msgid "Team memberships"
 msgstr "Členové týmu"
 
@@ -197,10 +197,21 @@ msgstr ""
 msgid "chci zjistit více"
 msgstr "chci zjistit více"
 
-#: acatto/templates/acatto/products.html:15
+#: acatto/templates/acatto/product.html:8
+msgid "seznam produktů"
+msgstr ""
+
+#: acatto/templates/acatto/products.html:7
+msgid "přepnutím typu nabídky vyřadíte/zařadíte odpovídající produkty"
+msgstr ""
+
+#: acatto/templates/acatto/products.html:18
+msgid "Nabídka"
+msgstr ""
+
+#: acatto/templates/acatto/products.html:33
 msgid "Nabídku produktů připravujeme."
 msgstr ""
 
-#: acatto/views.py:13
-msgid "Licence"
-msgstr "Licence"
+#~ msgid "Licence"
+#~ msgstr "Licence"
