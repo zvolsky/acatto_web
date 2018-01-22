@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-22 16:47+0100\n"
-"PO-Revision-Date: 2018-01-22 16:48+0100\n"
+"POT-Creation-Date: 2018-01-22 19:55+0100\n"
+"PO-Revision-Date: 2018-01-22 19:37+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -184,16 +184,14 @@ msgid "Team memberships"
 msgstr ""
 
 #: acatto/templates/acatto/home.html:7
-msgid "Akademie věd ČR"
-msgstr "Czech Academy of Sciences"
+msgid "Hyperborean Academy of knowledge"
+msgstr ""
 
 #: acatto/templates/acatto/home.html:8
 msgid ""
-"AV ČR Vám nabízí vědeckou, aplikační nebo investiční spolupráci na svých "
-"projektech, pronájem zdrojů i finální produkty."
+"AK of Hyperborea offers to you a scientific, application or capital "
+"collaboration on its projects, lease of sources and final products."
 msgstr ""
-"CAS offers scientific, application or capital collaboration on its projects, "
-"rent of its sources and final products."
 
 #: acatto/templates/acatto/home.html:9
 msgid "chci zjistit více"
@@ -201,19 +199,29 @@ msgstr "Tell me more"
 
 #: acatto/templates/acatto/product.html:8
 msgid "seznam produktů"
-msgstr ""
+msgstr "product list"
 
 #: acatto/templates/acatto/products.html:7
 msgid "přepnutím typu nabídky vyřadíte/zařadíte odpovídající produkty"
-msgstr ""
+msgstr "switch the offer type to include/exclude such products"
 
 #: acatto/templates/acatto/products.html:18
 msgid "Nabídka"
-msgstr ""
+msgstr "Announcement"
 
 #: acatto/templates/acatto/products.html:33
 msgid "Nabídku produktů připravujeme."
-msgstr ""
+msgstr "The offer of products will be prepared"
+
+#~ msgid "Akademie věd ČR"
+#~ msgstr "Czech Academy of Sciences"
+
+#~ msgid ""
+#~ "AV ČR Vám nabízí vědeckou, aplikační nebo investiční spolupráci na svých "
+#~ "projektech, pronájem zdrojů i finální produkty."
+#~ msgstr ""
+#~ "CAS offers scientific, application or capital collaboration on its "
+#~ "projects, rent of its sources and final products."
 
 #~ msgid "Licence"
 #~ msgstr "Licensing"

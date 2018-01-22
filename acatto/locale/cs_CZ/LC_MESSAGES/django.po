@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-22 16:47+0100\n"
-"PO-Revision-Date: 2018-01-22 16:52+0100\n"
+"POT-Creation-Date: 2018-01-22 19:55+0100\n"
+"PO-Revision-Date: 2018-01-22 19:34+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: cs_CZ\n"
@@ -184,14 +184,16 @@ msgid "Team memberships"
 msgstr "Členové týmu"
 
 #: acatto/templates/acatto/home.html:7
-msgid "Akademie věd ČR"
-msgstr "Akademie věd ČR"
+msgid "Hyperborean Academy of knowledge"
+msgstr "Hyperboreánská Akademie vědění"
 
 #: acatto/templates/acatto/home.html:8
 msgid ""
-"AV ČR Vám nabízí vědeckou, aplikační nebo investiční spolupráci na svých "
-"projektech, pronájem zdrojů i finální produkty."
+"AK of Hyperborea offers to you a scientific, application or capital "
+"collaboration on its projects, lease of sources and final products."
 msgstr ""
+"AV Hyperborei vám nabízí vědeckou, aplikační a investiční spolupráci na "
+"svých projektech, pronájem a finální produkty."
 
 #: acatto/templates/acatto/home.html:9
 msgid "chci zjistit více"
@@ -199,19 +201,22 @@ msgstr "chci zjistit více"
 
 #: acatto/templates/acatto/product.html:8
 msgid "seznam produktů"
-msgstr ""
+msgstr "seznam produktů"
 
 #: acatto/templates/acatto/products.html:7
 msgid "přepnutím typu nabídky vyřadíte/zařadíte odpovídající produkty"
-msgstr ""
+msgstr "přepnutím typu nabídky vyřadíte/zařadíte odpovídající produkty"
 
 #: acatto/templates/acatto/products.html:18
 msgid "Nabídka"
-msgstr ""
+msgstr "Nabídka"
 
 #: acatto/templates/acatto/products.html:33
 msgid "Nabídku produktů připravujeme."
-msgstr ""
+msgstr "Nabídku produktů připravujeme."
+
+#~ msgid "Akademie věd ČR"
+#~ msgstr "Akademie věd ČR"
 
 #~ msgid "Licence"
 #~ msgstr "Licence"

@@ -36,16 +36,18 @@
       </a>
       <nav id="nav-top" class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
         <span class="btn btn-primary"><a id="logo" class="navbar-brand mr-0 mr-md-2" href="/" aria-label="home">
-          <img src="{% static 'images/logo-av-en.png' %}">
+          Hyperborea Academy
         </a></span>
         <div class="navbar-nav-scroll">
           <ul class="navbar-nav bd-navbar-nav flex-row">
-            <li class="nav-item"><a class="nav-link" href="http://av21.avcr.cz/CeTTAV/">{% trans 'CAS strategy' %}</a>
-            <li class="nav-item"><a class="nav-link" href="http://www.ssc.cas.cz/struktura-organizace/cettav.html">{% trans 'Transfer of technologies' %}</a>
+            <li class="nav-item"><a class="nav-link" href="https://www.google.cz/search?q=strategy&oq=strategy&aqs=chrome..69i56.2857j0j4&sourceid=chrome&ie=UTF-8">{% trans 'Our strategy' %}</a>
+            <li class="nav-item"><a class="nav-link" href="https://www.google.cz/search?q=transfer&oq=transfer&aqs=chrome..69i56.2857j0j4&sourceid=chrome&ie=UTF-8">{% trans 'Transfer of technologies' %}</a>
           </ul>
         </div>
       </nav>
     </header>
+
+    <div class="alert alert-danger m-3">{% trans 'This is just a starting application demo. Design is not ready at all but prepared for the discussion with the graphic designer. English here is really pure but ready for the final translation into correct english. Translation system en/cs/.. include translation of db data is almost production ready and you can try it using administration (tto, pwd: vaclavak, see Offer types there). If interested in such application or any other modern, cheap and safe web application, pls contact us: zvolsky@seznam.cz' %}</div>
 
     <div class="container-fluid">
       <div class="row flex-xl-nowrap">
@@ -69,9 +71,9 @@
       <div class="clearfix">
         <div class="float-left">
           <ul class="nav mx-4">
-            <li class="nav-item"><a class="nav-link" href="http://www.avcr.cz"><i class="fa fa-adn"></i> {% trans 'CAS' %}</a>
-            <li class="nav-item"><a class="nav-link" href="http://av21.avcr.cz/CeTTAV/"><i class="fa fa-share-square"></i> {% trans 'CAS strategy' %}</a>
-            <li class="nav-item"><a class="nav-link" href="http://www.ssc.cas.cz/struktura-organizace/cettav.html"><i class="fa fa-recycle"></i> {% trans 'Transfer of technologies' %}</a>
+            <li class="nav-item"><a class="nav-link" href="https://www.google.cz/search?q=hyperborea&oq=hyperborea&aqs=chrome..69i56.2857j0j4&sourceid=chrome&ie=UTF-8"><i class="fa fa-adn"></i> {% trans 'HAK' %}</a>
+            <li class="nav-item"><a class="nav-link" href="https://www.google.cz/search?q=strategy&oq=strategy&aqs=chrome..69i56.2857j0j4&sourceid=chrome&ie=UTF-8"><i class="fa fa-share-square"></i> {% trans 'Our strategy' %}</a>
+            <li class="nav-item"><a class="nav-link" href="https://www.google.cz/search?q=transfer&oq=transfer&aqs=chrome..69i56.2857j0j4&sourceid=chrome&ie=UTF-8"><i class="fa fa-recycle"></i> {% trans 'Transfer of technologies' %}</a>
           </ul>
         </div>
         <div class="float-right">
@@ -80,7 +82,6 @@
           </ul>
         </div>
       </div>
-      <p class="mx-5">{% trans 'This site is under development.' %}</p>
     </footer>
 
     {% block modal %}{% endblock modal %}

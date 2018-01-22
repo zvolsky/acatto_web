@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-22 16:47+0100\n"
-"PO-Revision-Date: 2018-01-18 16:25+0100\n"
+"POT-Creation-Date: 2018-01-22 19:55+0100\n"
+"PO-Revision-Date: 2018-01-22 19:58+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: cs_CZ\n"
@@ -303,8 +303,8 @@ msgstr ""
 "svoji e-mailovou adresu</a>."
 
 #: acatto_web/templates/base.html:43 acatto_web/templates/base.html:73
-msgid "CAS strategy"
-msgstr "Strategie AV21"
+msgid "Our strategy"
+msgstr "Strategie HA22"
 
 #: acatto_web/templates/base.html:44 acatto_web/templates/base.html:74
 msgid "Transfer of technologies"
@@ -315,16 +315,31 @@ msgid "This page is under development."
 msgstr "Stránka je zatím ve vývoji."
 
 #: acatto_web/templates/base.html:72
-msgid "CAS"
-msgstr "AV ČR"
+msgid "HAK"
+msgstr "HAc"
 
 #: acatto_web/templates/base.html:79
 msgid "Web administration"
 msgstr "Administrace webu"
 
 #: acatto_web/templates/base.html:83
-msgid "This site is under development."
-msgstr "Tato aplikace je zatím ve vývoji."
+msgid ""
+"This is just a starting application demo. Design is not ready at all but "
+"prepared for the discussion with the graphic designer. English here is "
+"really pure but ready for the final translation into correct english. "
+"Translation system en/cs/.. include translation of db data is almost "
+"production ready and you can try it using administration (tto, pwd: "
+"vaclavak, see Offer types there). If interested in such application or any "
+"other modern, cheap and safe web application, pls contact us: zvolsky@seznam."
+"cz"
+msgstr ""
+"Toto je pouze úvodní aplikační demo. Design není vůbec dokončen, jen "
+"naznačen pro diskuzi s grafikem. Angličtina je jistě příšerná, ale "
+"připravená pro finální překlad do správné angličtiny. Překladový systém en/"
+"cs/.. včetně překladu dat v databázi je téměř finální a můžete si ho "
+"vyzkoušet v administraci (tto, pwd: vaclavak, hledejte Typ nabídky). "
+"Zajímáte-li se o takovou nebo jakoukoli jinou moderní, levnou a bezpečnou "
+"webovou aplikaci, prosím, kontaktujte nás: zvolsky@seznam.cz"
 
 #: acatto_web/templates/base_orig.html:49
 msgid "My Profile"
@@ -336,11 +351,17 @@ msgstr "Jméno uživatele"
 
 #: config/settings/base.py:172
 msgid "Czech"
-msgstr ""
+msgstr "Čeština"
 
 #: config/settings/base.py:173
 msgid "English"
-msgstr ""
+msgstr "English"
+
+#~ msgid "This site is under development."
+#~ msgstr "Tato aplikace je zatím ve vývoji."
+
+#~ msgid "CAS"
+#~ msgstr "AV ČR"
 
 #~ msgid "Go to home page"
 #~ msgstr "Přejděte na úvodní stranu"
